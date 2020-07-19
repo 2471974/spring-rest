@@ -1,5 +1,5 @@
 
-package guru.spring.rest.models;
+package guru.spring.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -12,7 +12,7 @@ public class ExpirationDate implements Serializable
     private Integer timezoneType;
     private String timezone;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = 2487595968085361289L;
+    private final static long serialVersionUID = 4661228813349752965L;
 
     public String getDate() {
         return date;

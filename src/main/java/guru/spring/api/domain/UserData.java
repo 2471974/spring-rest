@@ -1,20 +1,19 @@
-package guru.spring.rest.models;
-
-import lombok.Data;
+package guru.spring.api.domain;
 
 import java.util.List;
 
-@Data
+/**
+ * Created by jt on 9/21/17.
+ */
 public class UserData {
 
     List<User> data;
-/*
-    GETTER SETTER CREATED BY LOMBOK
+
     public List<User> getData() {
         return data;
     }
 
     public void setData(List<User> data) {
         this.data = data;
-    }*/
+    }
 }

@@ -1,24 +1,23 @@
 
-package guru.spring.rest.models;
+package guru.spring.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-public class User implements Serializable
+public class Billing implements Serializable
 {
 
-    private List<Datum> data = null;
+    private Card card;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = -3244920807608156779L;
+    private final static long serialVersionUID = 6577338081290507077L;
 
-    public List<Datum> getData() {
-        return data;
+    public Card getCard() {
+        return card;
     }
 
-    public void setData(List<Datum> data) {
-        this.data = data;
+    public void setCard(Card card) {
+        this.card = card;
     }
 
     public Map<String, Object> getAdditionalProperties() {

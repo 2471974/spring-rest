@@ -1,11 +1,11 @@
 
-package guru.spring.rest.models;
+package guru.spring.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Datum implements Serializable
+public class User implements Serializable
 {
 
     private String gender;
@@ -19,7 +19,8 @@ public class Datum implements Serializable
     private String language;
     private String currency;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = -4938736430673681145L;
+
+    private final static long serialVersionUID = 270727596527329664L;
 
     public String getGender() {
         return gender;

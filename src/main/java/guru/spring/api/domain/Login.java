@@ -1,5 +1,5 @@
 
-package guru.spring.rest.models;
+package guru.spring.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -14,7 +14,7 @@ public class Login implements Serializable
     private String sha1;
     private String sha256;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = 4102635187473790695L;
+    private final static long serialVersionUID = 1041720428871730372L;
 
     public String getUsername() {
         return username;

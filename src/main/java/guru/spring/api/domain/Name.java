@@ -1,5 +1,5 @@
 
-package guru.spring.rest.models;
+package guru.spring.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -12,7 +12,7 @@ public class Name implements Serializable
     private String first;
     private String last;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = 5935717000561756928L;
+    private final static long serialVersionUID = 420620315591775395L;
 
     public String getTitle() {
         return title;

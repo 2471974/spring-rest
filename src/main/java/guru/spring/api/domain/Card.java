@@ -1,5 +1,5 @@
 
-package guru.spring.rest.models;
+package guru.spring.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -14,7 +14,7 @@ public class Card implements Serializable
     private String iban;
     private String swift;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    private final static long serialVersionUID = 7200889933106855307L;
+    private final static long serialVersionUID = 6203456183354582742L;
 
     public String getType() {
         return type;
